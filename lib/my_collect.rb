@@ -1,3 +1,4 @@
+require 'pry'
 
 def my_collect(array)
   i= 0
@@ -7,6 +8,7 @@ def my_collect(array)
     i += 1
   end
   collection
+  binding.pry
 end
 
 
